@@ -1,4 +1,6 @@
-# 1. Khái niệm Object trong JavaScript?
+# Tìm hiểu Object trong JavaScript
+
+## 1. Khái niệm Object trong JavaScript?
 
 Object là một kiểu dữ liệu cho phép bạn lưu trữ và quản lý dữ liệu dưới dạng các cặp key-value. Nó được sử dụng để biểu diễn các thực thể trong thế giới thực hoặc các cấu trúc dữ liệu phức tạp.
 
