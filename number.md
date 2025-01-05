@@ -103,3 +103,25 @@ console.log(Math.random());
 ```
 
 ##### Sử dụng đối tượng Number
+
+- Number.isFinite(value): Kiểm tra giá trị có phải số hữu hạn hay không.
+- Number.isInteger(value): Kiểm tra giá trị có phải số nguyên hay không.
+- parseInt(value): chuyển chuỗi thành số phẩy động.
+- parseFloat(value): chuyển chuỗi thành số nguyên.
+- toString(): chuyển số thành chuỗi.
+- toFixed(): làm tròn số.
+
+```bash
+console.log(Number.isFinite(2/0)) // false
+console.log(Number.isFinite(20/4)) // true
+console.log(Number.isInteger(99)) // true
+console.log(Number.isInteger(0.5)) // false
+console.log(parseInt("42"));    // 42
+console.log(parseInt("46.5"));    // 46
+console.log(Number.parseFloat("3.14"));  // 3.14
+```
+
+### 3. Tổng kết
+
+Trong bài viết này, mình đã giới thiệu với các bạn về kiểu dữ liệu số (number) và cách làm việc với chuỗi trong JavaScript, từ việc khởi tạo đến các phương thức phổ biến khi làm việc với số trong JavaScript.
+Hy vọng bài viết này sẽ có thể giúp đỡ các bạn trong quá trình học và tìm hiểu về JavaScript.
