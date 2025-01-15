@@ -4,7 +4,7 @@ Mảng (Array) trong Javascript là một loại dữ liệu đặc biệt dùng
 
 ### I. Khái niệm
 
-- Mảng là một cấu trúc dữ liệu được sử dụng để lưu trữ một danh sách các giá trị (phần tử). Là một đối tượng đặc biệt được xây dựng sẵn trong JavaScript và cung cấp cách để quản lý và thao tác các tập hợp dữ liệu một cách hiệu quả.
+- Mảng (Array) là một cấu trúc dữ liệu cho phép lưu trữ nhiều giá trị trong một biến, giúp quản lý và thao tác danh sách dữ liệu dễ dàng hơn.
 
 ### II. Khởi tạo
 
@@ -43,11 +43,8 @@ Một phần tử trong một mảng JavaScript được truy cập bằng cách
 
 ```bash
 let fruits = ["Apple", "Banana", "Cherry"];
-
 console.log(fruits[0]); // Kết quả: "Apple"
 console.log(fruits[1]); // Kết quả: "Banana"
-console.log(fruits[2]); // Kết quả: "Cherry"
-
 ```
 
 #### 2. Độ dài mảng
@@ -55,7 +52,6 @@ console.log(fruits[2]); // Kết quả: "Cherry"
 - Độ dài mảng được xác định thông qua thuộc tính `.length` thuộc tính này trả về số lượng phần tử trong mảng.
 
 ```bash
-let fruits = ["Apple", "Banana", "Cherry"];
 console.log(fruits.length); // Kết quả: 3
 ```
 
@@ -165,16 +161,15 @@ console.log(allPositive); // true
 - lastIndexOf(element): Tìm vị trí cuối cùng của phần tử trong mảng
 
 ```bash
-let arr = [1, 2, 3, 2, 4];
-console.log(arr.indexOf(2)); // 1 (vị trí đầu tiên của 2)
-console.log(arr.indexOf(5)); // -1 (không tìm thấy)
-console.log(arr.lastIndexOf(2)); // 3 (vị trí cuối cùng của 2)
+let numbers = [5, 12, 8, 130, 44];
+console.log(numbers.indexOf(12)); // 1 (vị trí đầu tiên của 12)
+console.log(numbers.indexOf(2)); // -1 (không tìm thấy)
+console.log(numbers.lastIndexOf(130)); // 3 (vị trí cuối cùng của 130)
 ```
 
 - find(callback): Tìm kiếm và trả về 1 giá trị thỏa mãn điều kiện.
 
 ```bash
-let numbers = [5, 12, 8, 130, 44];
 let found = numbers.find(num => num > 10);
 console.log(found); // 12 (phần tử đầu tiên lớn hơn 10)
 ```
@@ -182,7 +177,6 @@ console.log(found); // 12 (phần tử đầu tiên lớn hơn 10)
 - filter(callback): Tìm kiếm và trả về 1 giá trị thỏa mãn điều kiện.
 
 ```bash
-let numbers = [5, 12, 8, 130, 44];
 let evenNumbers = numbers.filter(num => num % 2 === 0);
 console.log(evenNumbers); // [12, 8, 130, 44] (các số chẵn)
 ```
