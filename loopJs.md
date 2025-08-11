@@ -6,17 +6,17 @@ Vậy, vòng lặp hoạt động như thế nào trong JavaScript? Trong bài v
 
 ## I. Tổng quan
 
-#### 1. Khái niêm
+#### 1. Khái niệm
 
 - Vòng lặp (Loop) trong JavaScript là một cấu trúc giúp thực thi lặp đi lặp lại một đoạn mã cho đến khi một điều kiện nhất định được thỏa mãn.
 
 #### 2. Đặc điểm
 
-\- Tự Động Hóa Các Tác Vụ Lặp Lại
-\- Kiểm Soát Điều Kiện Lặp
-\- Duyệt Qua Cấu Trúc Dữ Liệu: array hoặc object
-\- Lồng Vòng Lặp (Nested Loop): để xử lý dữ liệu phức tạp
-\- Tích Hợp Với Phương Pháp Hiện Đại
+\- Tự động hóa các tác vụ lặp lại
+\- Kiểm soát điều kiện lặp
+\- Duyệt qua cấu trúc dữ liệu: array hoặc object
+\- Lồng vòng lặp (Nested Loop): để xử lý dữ liệu phức tạp
+\- Phương thức hiện đại
 
 ## II. Các loại vòng lặp
 
@@ -50,7 +50,7 @@ for (let i = 0; i < arr.length; i++) {
 }
 ```
 
-#### 2. Vòng Lặp for...in
+#### 2. Vòng lặp for...in
 
 Vòng lặp for...in được sử dụng để duyệt qua các thuộc tính của một đối tượng. Nó giúp bạn lặp qua tất cả các khóa (key) trong một đối tượng.
 
@@ -131,7 +131,7 @@ while (i < 5) {
 #### 5. Vòng Lặp do...while
 
 Vòng lặp do...while là một loại vòng lặp đặc biệt. Điểm khác biệt lớn so với vòng lặp while là vòng lặp do...while đảm bảo thực thi ít nhất một lần.
-Điều kiện chỉ được kiểm tra sau khi đoạn mã trong vòng lặp được thực thi. Điều này khiến vòng lặp do...while trở thành lựa chọn tốt khi bạn muốn đảm bảo rằng mã trong vòng lặp sẽ được thực thi ít nhất một lần.
+Điều kiện chỉ được kiểm tra sau khi đoạn mã trong vòng lặp được thực thi lần đầu. Điều này khiến vòng lặp do...while trở thành lựa chọn tốt khi bạn muốn đảm bảo rằng mã trong vòng lặp sẽ được thực thi ít nhất một lần.
 
 **Cú pháp:**
 
